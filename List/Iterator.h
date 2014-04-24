@@ -24,6 +24,5 @@ public:
 
     //Modifie le pointeur sur la Cellule sur laquelle l'itérateur pointe
     void SetCurrent(Cell<TYPE>* _cell);
-    
-};
+    };
 #include "iterator.hpp"

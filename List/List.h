@@ -56,12 +56,14 @@ public:
     friend ostream& operator<<(ostream& _Sortie, const List<TYPE>& _List);
 
 private:
+    
 
     List(const List&); //copieur désativé
     const List& operator=(const List<TYPE>&); //affectateur désactivé
     
     //Attributs
     int nbElements;
+
     Cell<TYPE>* first;
     Cell<TYPE>* last; 
 
